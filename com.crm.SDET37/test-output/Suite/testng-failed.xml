@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="classes" name="Failed suite [suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.crm.comcast.GenericUtilities.ListnerImplTn"/>
+  </listeners>
+  <test thread-count="4" parallel="classes" name="testRunner1(failed)">
+    <classes>
+      <class name="com.crm.Vtiger.CreateContacts.CreateContactTest">
+        <methods>
+          <include name="loginToApp"/>
+          <include name="dbConfig"/>
+          <include name="logoutFromApp"/>
+          <include name="launchTheBrowser"/>
+          <include name="TocreateContactTest"/>
+          <include name="closeDbConn"/>
+          <include name="closeTheBrowser"/>
+        </methods>
+      </class> <!-- com.crm.Vtiger.CreateContacts.CreateContactTest -->
+    </classes>
+  </test> <!-- testRunner1(failed) -->
+</suite> <!-- Failed suite [suite] -->

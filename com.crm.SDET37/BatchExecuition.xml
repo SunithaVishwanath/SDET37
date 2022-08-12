@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="suite" preserve-order="true">
+<listeners>
+<listener class-name="com.crm.comcast.GenericUtilities.ListnerImplTn"></listener>
+</listeners>
+	<test name="tests">
+		<classes>
+			<class name="com.crm.Vtiger.CreateContacts.CreateContactTest"></class>
+			<class name="com.crm.Vtiger.CreateContacts.CreateContactWithOrganisationTest"></class>
+			<class name="com.crm.Vtiger.Organisation.ToCreateOrganisationTest"></class>
+			<class name="com.crm.Vtiger.Organisation.CreateOrgWithIndustryAndType"></class>
+		</classes>
+	</test>
+</suite>
