@@ -5,6 +5,8 @@
     <classes>
       <class name="org.mavenExample.Practice4Test"/>
       <class name="org.mavenExample.Practice1Test"/>
+      <class name="org.mavenExample.Practice2Test"/>
+      <class name="org.mavenExample.Practice3Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
